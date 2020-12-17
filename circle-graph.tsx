@@ -4,7 +4,7 @@ import { Component, Prop } from '@stencil/core';
 	tag: 'circle-graph',
 	styleUrl: 'circle-graph.scss'
 })
-export class BasfCircleGraph {
+export class CircleGraph {
 	@Prop({ mutable: true })
 	slices: any;
 
